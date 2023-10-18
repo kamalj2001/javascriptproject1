@@ -85,4 +85,9 @@ const books = [
 let userBooks = books.filter((book_bk) => book_bk.genre === "Fiction");
 userBooks = books.filter((book_bk) => book_bk.publish >= 2000);
 userBooks = books.filter((book_bk) => book_bk.edition >= 2005);
-console.table(userBooks);
+//console.table(userBooks);
+
+const userBooks_02 = books.filter((book_bk) =>{
+    return book_bk.genre === "Fiction" && book_bk.edition >= 2000;
+});
+console.table(userBooks_02);
