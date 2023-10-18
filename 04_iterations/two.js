@@ -17,3 +17,10 @@ do {
     console.log(`${score}`);
     score++
 } while (score <= 10);
+
+
+let score_data = 0;
+do {
+    console.log(`${score_data}`);
+    score_data++
+} while (score_data <= 10);
